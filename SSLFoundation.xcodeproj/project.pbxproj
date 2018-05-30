@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B30628420BD69BD0013199C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30628320BD69BD0013199C /* AppDelegate.m */; };
+		2B30628720BD69BD0013199C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30628620BD69BD0013199C /* ViewController.m */; };
+		2B30628A20BD69BD0013199C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B30628820BD69BD0013199C /* Main.storyboard */; };
+		2B30628C20BD69C00013199C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B30628B20BD69C00013199C /* Assets.xcassets */; };
+		2B30628F20BD69C00013199C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B30628D20BD69C00013199C /* LaunchScreen.storyboard */; };
+		2B30629220BD69C00013199C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30629120BD69C00013199C /* main.m */; };
+		2B30629C20BD69C00013199C /* SSLFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30629B20BD69C00013199C /* SSLFoundationTests.m */; };
+		2B3062A720BD69C00013199C /* SSLFoundationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3062A620BD69C00013199C /* SSLFoundationUITests.m */; };
+		2B3062BC20BD6A040013199C /* UIView+ModifyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3062B720BD6A040013199C /* UIView+ModifyFrame.m */; };
+		2B3062BD20BD6A040013199C /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3062B920BD6A040013199C /* NSString+Hashing.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B30629820BD69C00013199C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B30627720BD69BD0013199C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B30627E20BD69BD0013199C;
+			remoteInfo = SSLFoundation;
+		};
+		2B3062A320BD69C00013199C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B30627720BD69BD0013199C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B30627E20BD69BD0013199C;
+			remoteInfo = SSLFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B30627F20BD69BD0013199C /* SSLFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B30628220BD69BD0013199C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B30628320BD69BD0013199C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B30628520BD69BD0013199C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B30628620BD69BD0013199C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B30628920BD69BD0013199C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B30628B20BD69C00013199C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B30628E20BD69C00013199C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B30629020BD69C00013199C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B30629120BD69C00013199C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B30629720BD69C00013199C /* SSLFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B30629B20BD69C00013199C /* SSLFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLFoundationTests.m; sourceTree = "<group>"; };
+		2B30629D20BD69C00013199C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B3062A220BD69C00013199C /* SSLFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLFoundationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3062A620BD69C00013199C /* SSLFoundationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLFoundationUITests.m; sourceTree = "<group>"; };
+		2B3062A820BD69C00013199C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B3062B620BD6A040013199C /* UIView+ModifyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ModifyFrame.h"; sourceTree = "<group>"; };
+		2B3062B720BD6A040013199C /* UIView+ModifyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ModifyFrame.m"; sourceTree = "<group>"; };
+		2B3062B920BD6A040013199C /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+		2B3062BA20BD6A040013199C /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		2B3062BB20BD6A040013199C /* YQFoundationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQFoundationHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B30627C20BD69BD0013199C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30629420BD69C00013199C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30629F20BD69C00013199C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B30627620BD69BD0013199C = {
+			isa = PBXGroup;
+			children = (
+				2B3062B420BD6A030013199C /* Classes */,
+				2B30628120BD69BD0013199C /* SSLFoundation */,
+				2B30629A20BD69C00013199C /* SSLFoundationTests */,
+				2B3062A520BD69C00013199C /* SSLFoundationUITests */,
+				2B30628020BD69BD0013199C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B30628020BD69BD0013199C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B30627F20BD69BD0013199C /* SSLFoundation.app */,
+				2B30629720BD69C00013199C /* SSLFoundationTests.xctest */,
+				2B3062A220BD69C00013199C /* SSLFoundationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B30628120BD69BD0013199C /* SSLFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				2B30628220BD69BD0013199C /* AppDelegate.h */,
+				2B30628320BD69BD0013199C /* AppDelegate.m */,
+				2B30628520BD69BD0013199C /* ViewController.h */,
+				2B30628620BD69BD0013199C /* ViewController.m */,
+				2B30628820BD69BD0013199C /* Main.storyboard */,
+				2B30628B20BD69C00013199C /* Assets.xcassets */,
+				2B30628D20BD69C00013199C /* LaunchScreen.storyboard */,
+				2B30629020BD69C00013199C /* Info.plist */,
+				2B30629120BD69C00013199C /* main.m */,
+			);
+			path = SSLFoundation;
+			sourceTree = "<group>";
+		};
+		2B30629A20BD69C00013199C /* SSLFoundationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B30629B20BD69C00013199C /* SSLFoundationTests.m */,
+				2B30629D20BD69C00013199C /* Info.plist */,
+			);
+			path = SSLFoundationTests;
+			sourceTree = "<group>";
+		};
+		2B3062A520BD69C00013199C /* SSLFoundationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B3062A620BD69C00013199C /* SSLFoundationUITests.m */,
+				2B3062A820BD69C00013199C /* Info.plist */,
+			);
+			path = SSLFoundationUITests;
+			sourceTree = "<group>";
+		};
+		2B3062B420BD6A030013199C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B3062B520BD6A040013199C /* UI */,
+				2B3062B820BD6A040013199C /* Category */,
+				2B3062BB20BD6A040013199C /* YQFoundationHeader.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2B3062B520BD6A040013199C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2B3062B620BD6A040013199C /* UIView+ModifyFrame.h */,
+				2B3062B720BD6A040013199C /* UIView+ModifyFrame.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2B3062B820BD6A040013199C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2B3062B920BD6A040013199C /* NSString+Hashing.m */,
+				2B3062BA20BD6A040013199C /* NSString+Hashing.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B30627E20BD69BD0013199C /* SSLFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3062AB20BD69C00013199C /* Build configuration list for PBXNativeTarget "SSLFoundation" */;
+			buildPhases = (
+				2B30627B20BD69BD0013199C /* Sources */,
+				2B30627C20BD69BD0013199C /* Frameworks */,
+				2B30627D20BD69BD0013199C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLFoundation;
+			productName = SSLFoundation;
+			productReference = 2B30627F20BD69BD0013199C /* SSLFoundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B30629620BD69C00013199C /* SSLFoundationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3062AE20BD69C00013199C /* Build configuration list for PBXNativeTarget "SSLFoundationTests" */;
+			buildPhases = (
+				2B30629320BD69C00013199C /* Sources */,
+				2B30629420BD69C00013199C /* Frameworks */,
+				2B30629520BD69C00013199C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B30629920BD69C00013199C /* PBXTargetDependency */,
+			);
+			name = SSLFoundationTests;
+			productName = SSLFoundationTests;
+			productReference = 2B30629720BD69C00013199C /* SSLFoundationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B3062A120BD69C00013199C /* SSLFoundationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3062B120BD69C00013199C /* Build configuration list for PBXNativeTarget "SSLFoundationUITests" */;
+			buildPhases = (
+				2B30629E20BD69C00013199C /* Sources */,
+				2B30629F20BD69C00013199C /* Frameworks */,
+				2B3062A020BD69C00013199C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B3062A420BD69C00013199C /* PBXTargetDependency */,
+			);
+			name = SSLFoundationUITests;
+			productName = SSLFoundationUITests;
+			productReference = 2B3062A220BD69C00013199C /* SSLFoundationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B30627720BD69BD0013199C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "李春阳";
+				TargetAttributes = {
+					2B30627E20BD69BD0013199C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2B30629620BD69C00013199C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2B30627E20BD69BD0013199C;
+					};
+					2B3062A120BD69C00013199C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2B30627E20BD69BD0013199C;
+					};
+				};
+			};
+			buildConfigurationList = 2B30627A20BD69BD0013199C /* Build configuration list for PBXProject "SSLFoundation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B30627620BD69BD0013199C;
+			productRefGroup = 2B30628020BD69BD0013199C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B30627E20BD69BD0013199C /* SSLFoundation */,
+				2B30629620BD69C00013199C /* SSLFoundationTests */,
+				2B3062A120BD69C00013199C /* SSLFoundationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B30627D20BD69BD0013199C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30628F20BD69C00013199C /* LaunchScreen.storyboard in Resources */,
+				2B30628C20BD69C00013199C /* Assets.xcassets in Resources */,
+				2B30628A20BD69BD0013199C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30629520BD69C00013199C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3062A020BD69C00013199C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B30627B20BD69BD0013199C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30628720BD69BD0013199C /* ViewController.m in Sources */,
+				2B30629220BD69C00013199C /* main.m in Sources */,
+				2B3062BC20BD6A040013199C /* UIView+ModifyFrame.m in Sources */,
+				2B30628420BD69BD0013199C /* AppDelegate.m in Sources */,
+				2B3062BD20BD6A040013199C /* NSString+Hashing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30629320BD69C00013199C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30629C20BD69C00013199C /* SSLFoundationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30629E20BD69C00013199C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3062A720BD69C00013199C /* SSLFoundationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B30629920BD69C00013199C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B30627E20BD69BD0013199C /* SSLFoundation */;
+			targetProxy = 2B30629820BD69C00013199C /* PBXContainerItemProxy */;
+		};
+		2B3062A420BD69C00013199C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B30627E20BD69BD0013199C /* SSLFoundation */;
+			targetProxy = 2B3062A320BD69C00013199C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B30628820BD69BD0013199C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B30628920BD69BD0013199C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B30628D20BD69C00013199C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B30628E20BD69C00013199C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B3062A920BD69C00013199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B3062AA20BD69C00013199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B3062AC20BD69C00013199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSLFoundation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.17house.SSLFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B3062AD20BD69C00013199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSLFoundation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.17house.SSLFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B3062AF20BD69C00013199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSLFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.17house.SSLFoundationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLFoundation.app/SSLFoundation";
+			};
+			name = Debug;
+		};
+		2B3062B020BD69C00013199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSLFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.17house.SSLFoundationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLFoundation.app/SSLFoundation";
+			};
+			name = Release;
+		};
+		2B3062B220BD69C00013199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSLFoundationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.17house.SSLFoundationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSLFoundation;
+			};
+			name = Debug;
+		};
+		2B3062B320BD69C00013199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSLFoundationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.17house.SSLFoundationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSLFoundation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B30627A20BD69BD0013199C /* Build configuration list for PBXProject "SSLFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3062A920BD69C00013199C /* Debug */,
+				2B3062AA20BD69C00013199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3062AB20BD69C00013199C /* Build configuration list for PBXNativeTarget "SSLFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3062AC20BD69C00013199C /* Debug */,
+				2B3062AD20BD69C00013199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3062AE20BD69C00013199C /* Build configuration list for PBXNativeTarget "SSLFoundationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3062AF20BD69C00013199C /* Debug */,
+				2B3062B020BD69C00013199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3062B120BD69C00013199C /* Build configuration list for PBXNativeTarget "SSLFoundationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3062B220BD69C00013199C /* Debug */,
+				2B3062B320BD69C00013199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B30627720BD69BD0013199C /* Project object */;
+}
