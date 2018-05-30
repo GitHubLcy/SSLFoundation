@@ -57,7 +57,7 @@
 		2B3062B720BD6A040013199C /* UIView+ModifyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ModifyFrame.m"; sourceTree = "<group>"; };
 		2B3062B920BD6A040013199C /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
 		2B3062BA20BD6A040013199C /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
-		2B3062BB20BD6A040013199C /* SSlFoundationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSlFoundationHeader.h; sourceTree = "<group>"; };
+		2B3062BB20BD6A040013199C /* SSLFoundationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLFoundationHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +145,7 @@
 			children = (
 				2B3062B520BD6A040013199C /* UI */,
 				2B3062B820BD6A040013199C /* Category */,
-				2B3062BB20BD6A040013199C /* SSlFoundationHeader.h */,
+				2B3062BB20BD6A040013199C /* SSLFoundationHeader.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
