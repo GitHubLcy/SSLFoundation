@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SSLFoundation"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "iOS 基础库"
 
   s.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/GitHubLcy/SSLFoundation.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes/YQFoundationHeader.h"
+  s.source_files  = "Classes/SSLFoundationHeader.h"
 
   s.subspec 'UI' do |ss|
     ss.source_files = 'Classes/UI/*.{h,m}'
