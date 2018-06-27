@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SSLFoundation"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "iOS 基础库"
 
   s.description  = <<-DESC
