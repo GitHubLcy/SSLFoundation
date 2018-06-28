@@ -17,6 +17,7 @@
 		2B3062A720BD69C00013199C /* SSLFoundationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3062A620BD69C00013199C /* SSLFoundationUITests.m */; };
 		2B3062BC20BD6A040013199C /* UIView+ModifyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3062B720BD6A040013199C /* UIView+ModifyFrame.m */; };
 		2B3062BD20BD6A040013199C /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3062B920BD6A040013199C /* NSString+Hashing.m */; };
+		2B33398E20E4C211000CC0AC /* NSString+pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B33398D20E4C211000CC0AC /* NSString+pinyin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		2B3062B920BD6A040013199C /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
 		2B3062BA20BD6A040013199C /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
 		2B3062BB20BD6A040013199C /* SSLFoundationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLFoundationHeader.h; sourceTree = "<group>"; };
+		2B33398C20E4C211000CC0AC /* NSString+pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+pinyin.h"; sourceTree = "<group>"; };
+		2B33398D20E4C211000CC0AC /* NSString+pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+pinyin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 		2B3062B820BD6A040013199C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2B33398C20E4C211000CC0AC /* NSString+pinyin.h */,
+				2B33398D20E4C211000CC0AC /* NSString+pinyin.m */,
 				2B3062BA20BD6A040013199C /* NSString+Hashing.h */,
 				2B3062B920BD6A040013199C /* NSString+Hashing.m */,
 			);
@@ -298,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B33398E20E4C211000CC0AC /* NSString+pinyin.m in Sources */,
 				2B30628720BD69BD0013199C /* ViewController.m in Sources */,
 				2B30629220BD69C00013199C /* main.m in Sources */,
 				2B3062BC20BD6A040013199C /* UIView+ModifyFrame.m in Sources */,
